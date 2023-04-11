@@ -1,3 +1,5 @@
+This repo contains my solutions to the rustlings exercises as I am completing them. I am using the rustlings version 5.4.1.
+---
 # rustlings 🦀❤️
 
 Greetings and welcome to `rustlings`. This project contains small exercises to get you used to reading and writing Rust code. This includes reading and responding to compiler messages!
