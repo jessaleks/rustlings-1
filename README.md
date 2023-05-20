@@ -1,6 +1,22 @@
-This repo contains my solutions to the rustlings exercises as I am completing them. I am using the rustlings version 5.4.1.
----
+## This repo contains my solutions to the rustlings exercises as I am completing them.
+
+JavaScript and TypeScript are my primary languages, because I focus on writing web apps.
+I am learning Rust, because it is a robust, and fast language. It also compiles to WASM, which is a benefit. I tried many other languages over the years:
+
+-   Kotlin and Java don't suit me because of their verbosity, and dependency resolution don't suit me. Java is OOP-first. Ew.
+    -   Tried Scala as well, but the problem is in the transition to the new Scala.
+-   Ruby is far too slow. I don't like the syntax either.
+-   C# is verbose as well, it's OOP-first, and it's Microsoft's language.
+-   Golang does weird stuff with error handling, although it is nice to work with.
+-   Python is slow and I don't like the whitespace stuff. Moreover, the move from 2 to 3 was a mess.
+-   Crystal doesn't work on Windows.
+-   C & C++ are good for grandpas.
+
+<div class="oranda-hide">
+
 # rustlings 🦀❤️
+
+</div>
 
 Greetings and welcome to `rustlings`. This project contains small exercises to get you used to reading and writing Rust code. This includes reading and responding to compiler messages!
 
@@ -8,8 +24,8 @@ _...looking for the old, web-based version of Rustlings? Try [here](https://gith
 
 Alternatively, for a first-time Rust learner, there are several other resources:
 
-- [The Book](https://doc.rust-lang.org/book/index.html) - The most comprehensive resource for learning Rust, but a bit theoretical sometimes. You will be using this along with Rustlings!
-- [Rust By Example](https://doc.rust-lang.org/rust-by-example/index.html) - Learn Rust by solving little exercises! It's almost like `rustlings`, but online
+-   [The Book](https://doc.rust-lang.org/book/index.html) - The most comprehensive resource for learning Rust, but a bit theoretical sometimes. You will be using this along with Rustlings!
+-   [Rust By Example](https://doc.rust-lang.org/rust-by-example/index.html) - Learn Rust by solving little exercises! It's almost like `rustlings`, but online
 
 ## Getting Started
 
@@ -25,6 +41,7 @@ Just run:
 ```bash
 curl -L https://raw.githubusercontent.com/rust-lang/rustlings/main/install.sh | bash
 ```
+
 Or if you want it to be installed to a different path:
 
 ```bash
@@ -38,8 +55,8 @@ This will install Rustlings and give you access to the `rustlings` command. Run 
 Basically: Clone the repository at the latest tag, finally run `nix develop` or `nix-shell`.
 
 ```bash
-# find out the latest version at https://github.com/rust-lang/rustlings/releases/latest (on edit 5.4.1)
-git clone -b 5.4.1 --depth 1 https://github.com/rust-lang/rustlings
+# find out the latest version at https://github.com/rust-lang/rustlings/releases/latest (on edit 5.5.1)
+git clone -b 5.5.1 --depth 1 https://github.com/rust-lang/rustlings
 cd rustlings
 # if nix version > 2.3
 nix develop
@@ -76,8 +93,8 @@ If you get a permission denied message, you might have to exclude the directory 
 Basically: Clone the repository at the latest tag, run `cargo install --path .`.
 
 ```bash
-# find out the latest version at https://github.com/rust-lang/rustlings/releases/latest (on edit 5.4.1)
-git clone -b 5.4.1 --depth 1 https://github.com/rust-lang/rustlings
+# find out the latest version at https://github.com/rust-lang/rustlings/releases/latest (on edit 5.5.1)
+git clone -b 5.5.1 --depth 1 https://github.com/rust-lang/rustlings
 cd rustlings
 cargo install --force --path .
 ```
